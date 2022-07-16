@@ -34,6 +34,24 @@ nav {
       font-weight: lighter !important;
 }
 
+.dropdown-content {
+    display:none;
+    position: absolute;
+  z-index: 1;
+}
+
+.menu ul li a:hover {
+    color: rgb(144, 144, 144);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#active {
+    color: rgb(144, 144, 144);
+}
+
 .banner-container {
     display: grid;
     justify-content: center;
