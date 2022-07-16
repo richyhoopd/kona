@@ -1,0 +1,36 @@
+h1 {
+    width: 100%;
+}
+
+.artistas-contenedor {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.artistas-contenedor .artistas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.artistas-contenedor h1 {
+    padding-left: 60px;
+    margin: 0;
+}
+.artista {
+    padding: 60px;
+}
+
+.artista img{
+    height: 205px;
+}
+
+.artista p:nth-child(1) {
+    font-weight: bold;
+    font-size: 22px;
+    margin: 10px 0 0 0;
+}
+
+.artista p:nth-child(2) {
+    margin-top: 5px;
+}

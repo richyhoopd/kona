@@ -1,0 +1,22 @@
+.contenedor-cafe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+article {
+    width: 50%;
+
+}
+
+h1 {
+    font-size: 22px;
+}
+
+h2 {
+    font-size: 14px;
+}
+
+article img {
+    width: 95%;
+}
